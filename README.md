@@ -1,8 +1,6 @@
-# Semana 1 - Introdução a programação, git e github
+# Conceitos básicos
 
-## Conceitos básicos
-
-### Hardware, Software e Programação
+## Hardware, Software e Programação
 
 Os componentes físicos de um computador são chamados de hardware e possuem uma linguagem composta por bits, que são um monte de zeros e uns. 
 
@@ -12,7 +10,7 @@ A programação é exatamente quem possibilita a existência dos softwares e, po
 
 Esses programas, por sua vez, são compostos por conjuntos de instruções determinados que descrevem tarefas a serem realizadas pela máquina e atendem diversas finalidades, chamados de algoritmos.
 
-### Algoritmos
+## Algoritmos
 
 De acordo com o dicionário, é um processo de cálculo que, por meio de uma sequência finita de operações, aplicada a um número finito de dados, leva à resolução de problemas.
 
@@ -21,7 +19,7 @@ Podemos dividir um algoritmo em três fases fundamentais:
 - processamento: sequência de passos necessários para atingir o objetivo final
 - saída: resultado gerado pela fase de processamento
 
-#### Como representar um algoritmo
+### Como representar um algoritmo
 - Narrativa: é contado como se fosse uma história, detalhando cada passo a ser executado
   ```
   Coloque uma escada embaixo da lâmpada queimada. Escolha uma lâmpada nova de mesma potência voltagem da queimada. Suba na escada até alcançar a lâmpada queimada. Gire a lâmpada queimada no sentido anti-horário até que ela se solte. Posicione a lâmpada nova no soquete. Gire a lâmpada no sentido horário, até que ela se firme. Desça da escada. Guarde a escada.
@@ -59,3 +57,17 @@ O banco de dados é a organização e armazenagem de informações sobre um dom�
 ## Arquitetura cliente-servidor
 Uma aplicação web é composta por dois atores principais: cliente e servidor. O cliente normalmente é um navegador como o Internet Explorer ou Firefox. O servidor é uma aplicação, na forma de um serviço, normalmente hospedado remotamente.  
 ![arquitetura cliente servidor](./imagens/arquitetura-cliente-servidor.png)
+
+## Terminal
+
+Basicamente, terminal é aquela famosa tela preta na qual você digita comandos para dar instruções para um computador. Ou seja, ele serve para você executar tarefas no computador sem utilizar a interface gráfica, com pastinhas e ícones, ou o bom e velho mouse. Todos os comandos são executados através de digitação de texto puro.
+
+Comando                                         | Descrição
+------------------------------------------------|-------------------------------------------------------
+ls (macOS/Linux) OU dir (Windows)               | lista todos os arquivos presentes no diretório atual
+mkdir nome-da-pasta                             | cria uma nova pasta
+cd nome-da-pasta                                | navega para a pasta especificada (exemplo: cd documentos)
+cd ..                                           | volta uma pasta
+touch nome-do-arquivo OU dir > nome-do-arquivo  | cria um novo arquivo vazio
+clear                                           | limpa todas as informações do terminal (isso não desfaz nenhum comando)
+rm nome-do-arquivo                              | deleta um arquivo
